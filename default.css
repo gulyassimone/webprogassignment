@@ -36,12 +36,14 @@ body {
     overflow-y: auto;
 
 }
+
 .close {
     color: #aaaaaa;
     float: right;
     font-size: 60px;
     font-weight: bold;
 }
+
 .close:hover,
 .close:focus {
     color: #000;
@@ -68,25 +70,29 @@ img, #deck {
     height: 10em;
 }
 
-inline{
+inline {
     display: inline-block;
 }
+
 #score table, #scores table, #summaryScore table {
     width: 100%;
     max-width: 600px;
-    table-layout:fixed;
+    table-layout: fixed;
 
 }
-#scores,#score, #menu, #special_options, #summaryScore{
+
+#scores, #score, #menu, #special_options, #summaryScore {
     background-color: #82D9EA;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-    border-radius:10px;
-    padding:10px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    padding: 10px;
     margin: 10px auto;
 }
+
 .hide {
     display: none;
 }
+
 .selectCard {
     border: 5px solid yellow;
 }
@@ -95,23 +101,25 @@ inline{
     border: 2px solid #3a5874;
 }
 
-tr td{
+tr td {
     padding: 5px;
 }
-caption{
+
+caption {
     font-weight: bold;;
 }
+
 table {
     border-collapse: collapse;
-    background:white;
-    border-radius:6px;
-    overflow:hidden;
-    margin:30px auto;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 30px auto;
 
     transform: rotate(3deg)
 }
 
-#timer{
+#timer {
     transform: rotate(-5deg);
     border: 1px solid black;
     height: 60px;
@@ -123,102 +131,127 @@ table {
     display: flex;
     margin-top: 60px;
 }
+
 select, input {
-    padding:10px;
-    margin:10px 0;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-    border-radius:10px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
     border: 2px solid #eee;
 }
-caption{
+
+caption {
     font-weight: bold;;
 }
+
 .box {
     margin: auto;
     width: 100px;
 }
-.btn-green{
-    background-color : #bdcc72 ;
+
+.btn-green {
+    background-color: #bdcc72;
 }
-.btn-red{
-    background-color : #e27589;
+
+.btn-red {
+    background-color: #e27589;
 }
-.btn-blue{
-    background-color : #93b9dc;
+
+.btn-blue {
+    background-color: #93b9dc;
 }
-.selectPlayer{
-    background-color : #fdfd96;
-    color : black;
+
+.selectPlayer {
+    background-color: #fdfd96;
+    color: black;
 }
+
 .inactivePlayer {
     background-color: #949494;
-    color : black;
+    color: black;
 }
-button:hover{
-    background-color : transparent ;
+
+button:hover {
+    background-color: transparent;
 }
+
 .btn-green:hover {
-    border : 1px solid  #bdcc72;
-    color : black;
+    border: 1px solid #bdcc72;
+    color: black;
 }
-.btn-red:hover{
-    border : 1px solid  #e27589;
-    color : black;
+
+.btn-red:hover {
+    border: 1px solid #e27589;
+    color: black;
 }
-.btn-blue:hover{
-    border : 1px solid  #93b9dc;
-    color : #93b9dc;
+
+.btn-blue:hover {
+    border: 1px solid #93b9dc;
+    color: #93b9dc;
 }
-.selectPlayer:hover{
-    border : 1px solid  #fdfd96;
-    color : black;
+
+.selectPlayer:hover {
+    border: 1px solid #fdfd96;
+    color: black;
 }
 
 *, *:before, *:after {
     box-sizing: border-box;
 }
+
 select, input {
-    padding:10px;
-    margin:10px 0;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-    border-radius:10px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
     border: 2px solid #eee;
 }
-button{
-    width : 100%;
-    height : 50px;
-    margin-bottom : 15px;
-    border : none;
-    border-radius : 5px;
+
+button {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
     color: #ffffff;
-    transition : background-color ease-in-out 0.5s;
+    transition: background-color ease-in-out 0.5s;
     transform: rotate(5deg);
     font-weight: bold;
 }
+
 .inline {
     width: 40%;
     display: inline-block;
-    position:relative;
+    position: relative;
     vertical-align: top;
 }
-.end{
+
+.end {
     font-weight: bold;
     text-font: 22px;
     text-align: center;
-    background-color : #93b9dc;
-    margin:auto;
+    background-color: #93b9dc;
+    margin: auto;
     padding: 10px;
     max-width: 300px;
 }
-.smallbutton{
+
+.smallbutton {
     width: 50px;
     height: 20px;
     display: inline-block;
     background-color: #e27589;
 }
-#result{
+
+#result {
     font-size: 22px;
     height: 30px;
     width: 100px;
     text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+    .card {
+        width: 50px;
+    }
 }
